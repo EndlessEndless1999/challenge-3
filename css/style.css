@@ -1,0 +1,49 @@
+:root {
+    --red: #FC4445;
+    --teal: #3FEEE6;
+    --darkblue: #55BCC9;
+    --fadeblue: #97CAEF;
+    --lightblue: #CAFAFE;
+}
+
+body {
+    background-color: var(--teal);
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        'item1 item2 item3'
+    ;
+    align-content: center;
+    justify-content: start;
+    background-color: var(--lightblue);
+    padding: 10px;
+    border: #FC4445;
+    border-style: double;
+}
+
+.item1 {
+    border: #FC4445;
+    border-style: double;
+    grid-area: item1;
+}
+
+.item2 {
+    border: #FC4445;
+    border-style: double;
+    grid-area: item2;
+}
+
+.item3 {
+    border: #FC4445;
+    border-style: double;
+    grid-area: item3;
+}
+
+.hero {
+    text-align: center;
+    background-color: var(--red);
+}
