@@ -10,6 +10,11 @@ body {
     background-color: var(--teal);
 }
 
+.navbar {
+    background: var(--teal);
+}
+
+
 
 .container {
     display: grid;
@@ -28,18 +33,21 @@ body {
     border: #FC4445;
     border-style: double;
     grid-area: item1;
+    justify-self: center;
 }
 
 .item2 {
     border: #FC4445;
     border-style: double;
     grid-area: item2;
+    justify-self: center;
 }
 
 .item3 {
     border: #FC4445;
     border-style: double;
     grid-area: item3;
+    justify-content: center;
 }
 
 .hero {
