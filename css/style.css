@@ -14,7 +14,15 @@ body {
     background: var(--teal);
 }
 
+.circleImage {
+    border-radius: 50%;
+    background-color: black;
+}
 
+.bigImage {
+    width: 300px;
+    height: 300px;
+}
 
 .container {
     display: grid;
@@ -41,23 +49,22 @@ body {
 
 .skillItemOne {
     grid-area: areaOne;
-    background-image: url(../images/inv.png);
+    background-color: #FC4445;
 }
 
 .skillItemTwo {
     grid-area: areaTwo;
-    background-image: url(../images/inv.png);
+    background-color: #55BCC9;
 }
 
 .skillItemThree {
     grid-area: areaThree;
-    background-image: url(../images/inv.png);
+    background-color: #97CAEF;
 }
 
 .skillItemFour {
     grid-area: areaFour;
-    background-image: url(../images/inv.png);
-    background-repeat: no-repeat;
+    background-color: #3FEEE6;
 }
 
 
