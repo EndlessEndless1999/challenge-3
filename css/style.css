@@ -29,6 +29,38 @@ body {
     border-style: double;
 }
 
+.skillsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: 
+    'areaOne areaTwo areaThree'
+    'areaFour areaTwo areaThree'
+    ;
+}
+
+.skillItemOne {
+    grid-area: areaOne;
+}
+
+.skillItemTwo {
+    grid-area: areaTwo;
+}
+
+.skillItemThree {
+    grid-area: areaThree;
+}
+
+.skillItemFour {
+    grid-area: areaFour;
+}
+
+
+
+
+
+
+
 .item1 {
     border: #FC4445;
     border-style: double;
