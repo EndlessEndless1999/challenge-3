@@ -41,18 +41,23 @@ body {
 
 .skillItemOne {
     grid-area: areaOne;
+    background-image: url(../images/inv.png);
 }
 
 .skillItemTwo {
     grid-area: areaTwo;
+    background-image: url(../images/inv.png);
 }
 
 .skillItemThree {
     grid-area: areaThree;
+    background-image: url(../images/inv.png);
 }
 
 .skillItemFour {
     grid-area: areaFour;
+    background-image: url(../images/inv.png);
+    background-repeat: no-repeat;
 }
 
 
