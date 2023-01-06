@@ -1,17 +1,18 @@
 :root {
     --red: #FC4445;
-    --teal: #3FEEE6;
-    --darkblue: #55BCC9;
-    --fadeblue: #97CAEF;
-    --lightblue: #CAFAFE;
 }
 
 body {
-    background-color: var(--teal);
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar {
-    background: var(--teal);
+    background: white;
+    color: white;
 }
 
 .circleImage {
@@ -24,6 +25,10 @@ body {
     height: 300px;
 }
 
+.placeholder {
+    padding: 400px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,13 +36,12 @@ body {
     grid-template-areas: 
         'item1 item2 item3'
     ;
-    background-color: var(--lightblue);
-    padding: 10px;
-    border: #FC4445;
-    border-style: double;
+    background-color: black;
+    padding: 50px;
 }
 
 .skillsContainer {
+    justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
@@ -49,22 +53,22 @@ body {
 
 .skillItemOne {
     grid-area: areaOne;
-    background-color: #FC4445;
+    background-color: black;
 }
 
 .skillItemTwo {
     grid-area: areaTwo;
-    background-color: #55BCC9;
+    background-color: black;
 }
 
 .skillItemThree {
     grid-area: areaThree;
-    background-color: #97CAEF;
+    background-color: black;
 }
 
 .skillItemFour {
     grid-area: areaFour;
-    background-color: #3FEEE6;
+    background-color: black;
 }
 
 
@@ -74,27 +78,26 @@ body {
 
 
 .item1 {
-    border: #FC4445;
-    border-style: double;
     grid-area: item1;
     justify-self: center;
+    background-color: black;
 }
 
 .item2 {
-    border: #FC4445;
-    border-style: double;
     grid-area: item2;
     justify-self: center;
+    background-color: black;
 }
 
 .item3 {
-    border: #FC4445;
-    border-style: double;
     grid-area: item3;
-    justify-content: center;
+    justify-self: center;
+    background-color: black;
 }
+
+
 
 .hero {
     text-align: center;
-    background-color: var(--red);
+    background-color: black;
 }
