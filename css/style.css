@@ -1,23 +1,30 @@
 :root {
-    --red: #FC4445;
+    --dark: #3C6255;
+    --lighter: #61876E;
+    --light: #A6BB8D;
+    --lightest: #EAE7B1;
 }
 
 body {
-    background-color: black;
+    background-color: var(--dark);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+h3 {
+    font-weight: bold;
+}
+
 .navbar {
-    background: white;
-    color: white;
+    background: var(--lighter);
+    color: var(--lightest);
 }
 
 .circleImage {
     border-radius: 50%;
-    background-color: black;
 }
 
 .bigImage {
@@ -36,7 +43,7 @@ html {
     grid-template-areas: 
         'item1 item2 item3'
     ;
-    background-color: black;
+    background-color: var(--lighter);
     padding: 50px;
 }
 
@@ -51,24 +58,26 @@ html {
     ;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
 .skillItemOne {
     grid-area: areaOne;
-    background-color: black;
 }
 
 .skillItemTwo {
     grid-area: areaTwo;
-    background-color: black;
 }
 
 .skillItemThree {
     grid-area: areaThree;
-    background-color: black;
 }
 
 .skillItemFour {
     grid-area: areaFour;
-    background-color: black;
 }
 
 
@@ -99,9 +108,5 @@ html {
 
 .hero {
     text-align: center;
-    background-color: black;
-}
-
-.card {
-    box-shadow: 100px 20px 20px green;
+    background-color: var(--light);
 }
